@@ -17,7 +17,7 @@
 
 ### 🌷 About me
 
-- 🎓 B.Tech CSE (AI & ML) student in Bangalore, batch 2025 to 2029
+- 🎓 B.Tech CSE (AI & ML) student in Bangalore, batch 2026 to 2029
 - 💜 Open source contributor to **Wikimedia's WikiEduDashboard** and **sktime** (ESoC 2026), and a **GSSoC 2026** contributor
 - 🧪 Into machine learning, frontend work and testing things until they stop breaking
 - 🌱 Right now: building my portfolio and looking for AI/ML and QA internships
