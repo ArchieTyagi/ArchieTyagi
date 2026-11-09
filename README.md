@@ -35,7 +35,7 @@
       <sub>Python ML toolkit for time series<br/>ESoC 2026</sub>
     </td>
     <td align="center" width="33%">
-      <b>🌸 GSSoC 2026</b><br/>
+      <b>🌸Selected in GSSoC 2026</b><br/>
       <sub>GirlScript Summer of Code contributor</sub>
     </td>
   </tr>
@@ -48,10 +48,11 @@
 | Project | What it is |
 |---|---|
 | **⚡ PowerGrid** | Power forecasting and anomaly detection dashboard. I built the frontend |
-| **🏫 Nexus Campus** | A campus project from my featured work |
+| **🏫 Nexus Campus** | A campus project from my featured work OJT Project |
 | **🎤 AI Interview Studio** | Mock interview platform, my CSUF college project |
 | **🤖 [ShopBot QA](https://github.com/ArchieTyagi/shopbot-qa)** | Test automation with Python, pytest, Selenium, Postman and GitHub Actions, deployed on Vercel |
 | **💳 Mifos Customer Portal** | Customer portal built for my Semester 1 OJT |
+Vaani 
 
 <p align="center">
   <a href="https://github.com/ArchieTyagi?tab=repositories"><img src="https://img.shields.io/badge/See%20all%20my%20repos-C084FC?style=for-the-badge&logo=github&logoColor=white" alt="See all repos"/></a>
