@@ -14,17 +14,15 @@
   <a href="https://www.linkedin.com/in/archie-tyagi-873364343/"><img src="https://img.shields.io/badge/LinkedIn-FBCFE8?style=for-the-badge&logo=linkedin&logoColor=9D174D" alt="LinkedIn"/></a>
   <a href="https://github.com/ArchieTyagi"><img src="https://komarev.com/ghpvc/?username=ArchieTyagi&label=Profile%20views&color=c084fc&style=for-the-badge" alt="Profile views"/></a>
 </p>
----
-### 🌷 About me
+
+# 🌷 About me
 
 - 🎓 B.Tech CSE (AI & ML) student in Bangalore, batch 2025 to 2029
 - 🧠 Into machine learning, clean frontends and testing things until they stop breaking
 - 💜 I contribute to open source and love learning from big real-world codebases
 - 🌱 Right now: building my portfolio and looking for AI/ML and QA internships
 
----
-
-### 🌍 Open source
+# 🌍 Open source
 
 <table>
   <tr>
