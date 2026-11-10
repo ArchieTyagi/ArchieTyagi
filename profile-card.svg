@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470">
+  <defs>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F0ABFC"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#EC4899" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'SF Mono', Menlo, Consolas, 'Courier New', monospace; }
+      .title { fill: #C084FC; font-size: 15px; font-weight: 600; letter-spacing: 0.5px; }
+      .main { fill: #E6EDF3; font-size: 15px; }
+      .sub { fill: #8B949E; font-size: 13px; }
+      .line { opacity: 0; animation: show 0.4s ease forwards; }
+      .l1 { animation-delay: 0.4s; } .l2 { animation-delay: 1.0s; }
+      .l3 { animation-delay: 1.8s; } .l4 { animation-delay: 2.4s; }
+      .l5 { animation-delay: 3.2s; } .l6 { animation-delay: 3.8s; }
+      @keyframes show { to { opacity: 1; } }
+      .cursor { animation: blink 1s step-end infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+    </style>
+  </defs>
+
+  <!-- card -->
+  <rect x="1" y="1" width="1198" height="468" rx="18" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  <circle cx="140" cy="60" r="320" fill="url(#glow)"/>
+
+  <!-- top bar -->
+  <circle cx="32" cy="30" r="6" fill="#FF5F57"/>
+  <circle cx="52" cy="30" r="6" fill="#FEBC2E"/>
+  <circle cx="72" cy="30" r="6" fill="#28C840"/>
+  <text x="600" y="35" text-anchor="middle" class="mono" fill="#6E7681" font-size="13">archi@github: ~/profile</text>
+  <line x1="1" y1="58" x2="1199" y2="58" stroke="#21262D" stroke-width="1.5"/>
+
+  <!-- LEFT: who I am -->
+  <text x="40" y="118" font-size="44" font-weight="700" fill="url(#nameGrad)">Archi Tyagi</text>
+  <text x="42" y="148" class="mono" fill="#8B949E" font-size="15">@ArchieTyagi</text>
+  <text x="42" y="182" fill="#E6EDF3" font-size="17">AI &amp; ML Engineer in the making</text>
+
+  <g transform="translate(42,220)">
+    <circle cx="6" cy="-5" r="4" fill="#C084FC"/>
+    <text x="22" y="0" class="main">B.Tech CSE (AI &amp; ML), batch 2025 to 2029</text>
+    <circle cx="6" cy="29" r="4" fill="#F472B6"/>
+    <text x="22" y="34" class="main">Polaris School of Technology</text>
+    <circle cx="6" cy="63" r="4" fill="#C084FC"/>
+    <text x="22" y="68" class="main">Bangalore, India</text>
+    <circle cx="6" cy="97" r="4" fill="#F472B6"/>
+    <text x="22" y="102" class="main">Machine learning, frontend and QA</text>
+  </g>
+
+  <!-- open to work pill -->
+  <g transform="translate(42,355)">
+    <rect width="290" height="34" rx="17" fill="#1F1530" stroke="#A855F7" stroke-width="1.2"/>
+    <circle class="pulse" cx="22" cy="17" r="5" fill="#3FB950"/>
+    <text x="38" y="22" fill="#E9D5FF" font-size="14" font-weight="600">Open to AI/ML and QA internships</text>
+  </g>
+
+  <!-- divider -->
+  <line x1="410" y1="85" x2="410" y2="400" stroke="#21262D" stroke-width="1.5"/>
+
+  <!-- MIDDLE: open source -->
+  <text x="440" y="100" class="title">OPEN SOURCE</text>
+  <g transform="translate(440,135)">
+    <rect width="320" height="58" rx="10" fill="#161B22" stroke="#30363D"/>
+    <rect width="4" height="58" rx="2" fill="#C084FC"/>
+    <text x="18" y="25" class="main" font-weight="600">WikiEduDashboard</text>
+    <text x="18" y="45" class="sub">Wikimedia's education dashboard</text>
+  </g>
+  <g transform="translate(440,205)">
+    <rect width="320" height="58" rx="10" fill="#161B22" stroke="#30363D"/>
+    <rect width="4" height="58" rx="2" fill="#F472B6"/>
+    <text x="18" y="25" class="main" font-weight="600">sktime</text>
+    <text x="18" y="45" class="sub">ML toolkit for time series, ESoC 2026</text>
+  </g>
+  <g transform="translate(440,275)">
+    <rect width="320" height="58" rx="10" fill="#161B22" stroke="#30363D"/>
+    <rect width="4" height="58" rx="2" fill="#C084FC"/>
+    <text x="18" y="25" class="main" font-weight="600">GSSoC 2026</text>
+    <text x="18" y="45" class="sub">GirlScript Summer of Code contributor</text>
+  </g>
+
+  <!-- RIGHT: terminal -->
+  <text x="800" y="100" class="title">TERMINAL</text>
+  <g transform="translate(800,120)">
+    <rect width="360" height="213" rx="10" fill="#010409" stroke="#30363D"/>
+    <g class="mono" font-size="14">
+      <text class="line l1" x="18" y="34"><tspan fill="#F472B6">$</tspan><tspan fill="#E6EDF3"> whoami</tspan></text>
+      <text class="line l2" x="18" y="58" fill="#C084FC">archi, an AI/ML student who ships</text>
+      <text class="line l3" x="18" y="92"><tspan fill="#F472B6">$</tspan><tspan fill="#E6EDF3"> cat focus.txt</tspan></text>
+      <text class="line l4" x="18" y="116" fill="#C084FC">ML · frontend · test automation</text>
+      <text class="line l5" x="18" y="150"><tspan fill="#F472B6">$</tspan><tspan fill="#E6EDF3"> git status</tspan></text>
+      <text class="line l6" x="18" y="174" fill="#3FB950">looking for internships ✓</text>
+      <rect class="cursor" x="18" y="186" width="9" height="16" fill="#F472B6"/>
+    </g>
+  </g>
+
+  <!-- BOTTOM: tech I use -->
+  <line x1="1" y1="420" x2="1199" y2="420" stroke="#21262D" stroke-width="1.5"/>
+  <g font-size="13" fill="#C9D1D9" transform="translate(0,449)">
+    <circle cx="48" cy="-5" r="5" fill="#3572A5"/><text x="60" y="0">Python</text>
+    <circle cx="140" cy="-5" r="5" fill="#F1E05A"/><text x="152" y="0">JavaScript</text>
+    <circle cx="254" cy="-5" r="5" fill="#E34C26"/><text x="266" y="0">HTML</text>
+    <circle cx="328" cy="-5" r="5" fill="#663399"/><text x="340" y="0">CSS</text>
+    <circle cx="394" cy="-5" r="5" fill="#0A9EDC"/><text x="406" y="0">pytest</text>
+    <circle cx="474" cy="-5" r="5" fill="#43B02A"/><text x="486" y="0">Selenium</text>
+    <circle cx="574" cy="-5" r="5" fill="#FF6C37"/><text x="586" y="0">Postman</text>
+    <circle cx="668" cy="-5" r="5" fill="#2088FF"/><text x="680" y="0">GitHub Actions</text>
+    <circle cx="804" cy="-5" r="5" fill="#F05032"/><text x="816" y="0">Git</text>
+    <circle cx="862" cy="-5" r="5" fill="#E6EDF3"/><text x="874" y="0">Vercel</text>
+  </g>
+  <text x="1160" y="449" text-anchor="end" class="mono" fill="#6E7681" font-size="12">github.com/ArchieTyagi</text>
+</svg>
